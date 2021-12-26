@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F244163E2775912E001F4DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244163D2775912E001F4DDA /* AppDelegate.swift */; };
-		F24416402775912E001F4DDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244163F2775912E001F4DDA /* SceneDelegate.swift */; };
-		F24416422775912E001F4DDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24416412775912E001F4DDA /* ViewController.swift */; };
+		F24416422775912E001F4DDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24416412775912E001F4DDA /* MainViewController.swift */; };
 		F24416452775912E001F4DDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24416432775912E001F4DDA /* Main.storyboard */; };
 		F244164727759138001F4DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F244164627759138001F4DDA /* Assets.xcassets */; };
 		F244164A27759138001F4DDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F244164827759138001F4DDA /* LaunchScreen.storyboard */; };
 		F24416552775913A001F4DDA /* Wongnai_iOS_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24416542775913A001F4DDA /* Wongnai_iOS_InterviewTests.swift */; };
 		F244165F2775913A001F4DDA /* Wongnai_iOS_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244165E2775913A001F4DDA /* Wongnai_iOS_InterviewUITests.swift */; };
 		F24416612775913A001F4DDA /* Wongnai_iOS_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24416602775913A001F4DDA /* Wongnai_iOS_InterviewUITestsLaunchTests.swift */; };
+		F2F28CC02776F1810062D591 /* ImageInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CBF2776F1810062D591 /* ImageInfoRequest.swift */; };
+		F2F28CC22776F2040062D591 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CC12776F2040062D591 /* ImageInfo.swift */; };
+		F2F28CC52777FB4B0062D591 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CC32777FB4B0062D591 /* TableViewCell.swift */; };
+		F2F28CC62777FB4B0062D591 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F28CC42777FB4B0062D591 /* TableViewCell.xib */; };
+		F2F28CC8277842EF0062D591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CC7277842EF0062D591 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,7 @@
 /* Begin PBXFileReference section */
 		F244163A2775912E001F4DDA /* Wongnai iOS Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wongnai iOS Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F244163D2775912E001F4DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F244163F2775912E001F4DDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F24416412775912E001F4DDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F24416412775912E001F4DDA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F24416442775912E001F4DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F244164627759138001F4DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F244164927759138001F4DDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		F244165A2775913A001F4DDA /* Wongnai iOS InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wongnai iOS InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F244165E2775913A001F4DDA /* Wongnai_iOS_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wongnai_iOS_InterviewUITests.swift; sourceTree = "<group>"; };
 		F24416602775913A001F4DDA /* Wongnai_iOS_InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wongnai_iOS_InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F244166D277591AD001F4DDA /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
+		F244166E277591AD001F4DDA /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F2F28CBF2776F1810062D591 /* ImageInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfoRequest.swift; sourceTree = "<group>"; };
+		F2F28CC12776F2040062D591 /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		F2F28CC32777FB4B0062D591 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F2F28CC42777FB4B0062D591 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F2F28CC7277842EF0062D591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				F244163D2775912E001F4DDA /* AppDelegate.swift */,
-				F244163F2775912E001F4DDA /* SceneDelegate.swift */,
-				F24416412775912E001F4DDA /* ViewController.swift */,
+				F2F28CC7277842EF0062D591 /* SceneDelegate.swift */,
+				F24416412775912E001F4DDA /* MainViewController.swift */,
+				F2F28CBF2776F1810062D591 /* ImageInfoRequest.swift */,
+				F2F28CC12776F2040062D591 /* ImageInfo.swift */,
+				F2F28CC32777FB4B0062D591 /* TableViewCell.swift */,
+				F2F28CC42777FB4B0062D591 /* TableViewCell.xib */,
 				F24416432775912E001F4DDA /* Main.storyboard */,
 				F244164627759138001F4DDA /* Assets.xcassets */,
 				F244164827759138001F4DDA /* LaunchScreen.storyboard */,
@@ -213,6 +227,7 @@
 			knownRegions = (
 				en,
 				Base,
+				th,
 			);
 			mainGroup = F24416312775912D001F4DDA;
 			productRefGroup = F244163B2775912E001F4DDA /* Products */;
@@ -232,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F244164A27759138001F4DDA /* LaunchScreen.storyboard in Resources */,
+				F2F28CC62777FB4B0062D591 /* TableViewCell.xib in Resources */,
 				F244164727759138001F4DDA /* Assets.xcassets in Resources */,
 				F24416452775912E001F4DDA /* Main.storyboard in Resources */,
 			);
@@ -258,9 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24416422775912E001F4DDA /* ViewController.swift in Sources */,
+				F2F28CC52777FB4B0062D591 /* TableViewCell.swift in Sources */,
+				F24416422775912E001F4DDA /* MainViewController.swift in Sources */,
+				F2F28CC02776F1810062D591 /* ImageInfoRequest.swift in Sources */,
+				F2F28CC22776F2040062D591 /* ImageInfo.swift in Sources */,
 				F244163E2775912E001F4DDA /* AppDelegate.swift in Sources */,
-				F24416402775912E001F4DDA /* SceneDelegate.swift in Sources */,
+				F2F28CC8277842EF0062D591 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +320,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F24416442775912E001F4DDA /* Base */,
+				F244166D277591AD001F4DDA /* th */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +329,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F244164927759138001F4DDA /* Base */,
+				F244166E277591AD001F4DDA /* th */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -367,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -422,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -447,6 +470,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +499,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
