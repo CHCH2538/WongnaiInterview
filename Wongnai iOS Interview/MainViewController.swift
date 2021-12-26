@@ -17,6 +17,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ImageInfoRequest.shared.fetchImageInfo()
         tableView.reloadData()
         tableView.delegate = self
         tableView.dataSource = self
