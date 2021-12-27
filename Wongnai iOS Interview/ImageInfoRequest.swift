@@ -12,7 +12,7 @@ class ImageInfoRequest {
     
     static let shared = ImageInfoRequest()
     
-    func fetchImageInfo() {
+    func fetchImageInfo(onCompletion: @escaping ([ImagesInfo]) -> ()) {
         
         let urlStrimg = "https://api.500px.com/v1/photos?feature=popular&page=1"
         let url = URL(string: urlStrimg)!
@@ -28,7 +28,8 @@ class ImageInfoRequest {
                 print ("JSON Decode error.")
                 return
             }
-            print (imageInfoList.photos)
+            print(imageInfoList.photos)
+            onCompletion(imageInfoList.photos)
         }
         task.resume()
     }

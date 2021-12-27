@@ -10,14 +10,21 @@ import UIKit
 class MainViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView!
-    let cellInfoRequest = ImageInfoRequest()
+    var imagesInfo = [ImagesInfo]()
     var listOfItem = [ImageInfoList]()
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ImageInfoRequest.shared.fetchImageInfo()
+        let anonymousFunc = { (fetchedImagesInfo: [ImagesInfo]) in
+            DispatchQueue.main.async {
+                self.imagesInfo = fetchedImagesInfo
+                self.tableView.reloadData()
+            }
+        }
+        
+        ImageInfoRequest.shared.fetchImageInfo(onCompletion: anonymousFunc)
         tableView.reloadData()
         tableView.delegate = self
         tableView.dataSource = self

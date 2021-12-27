@@ -16,7 +16,7 @@
 		F244165F2775913A001F4DDA /* Wongnai_iOS_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244165E2775913A001F4DDA /* Wongnai_iOS_InterviewUITests.swift */; };
 		F24416612775913A001F4DDA /* Wongnai_iOS_InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24416602775913A001F4DDA /* Wongnai_iOS_InterviewUITestsLaunchTests.swift */; };
 		F2F28CC02776F1810062D591 /* ImageInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CBF2776F1810062D591 /* ImageInfoRequest.swift */; };
-		F2F28CC22776F2040062D591 /* ImageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CC12776F2040062D591 /* ImageInfo.swift */; };
+		F2F28CC22776F2040062D591 /* ImagesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CC12776F2040062D591 /* ImagesInfo.swift */; };
 		F2F28CC52777FB4B0062D591 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CC32777FB4B0062D591 /* TableViewCell.swift */; };
 		F2F28CC62777FB4B0062D591 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F28CC42777FB4B0062D591 /* TableViewCell.xib */; };
 		F2F28CC8277842EF0062D591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F28CC7277842EF0062D591 /* SceneDelegate.swift */; };
@@ -55,7 +55,7 @@
 		F244166D277591AD001F4DDA /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Main.strings; sourceTree = "<group>"; };
 		F244166E277591AD001F4DDA /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		F2F28CBF2776F1810062D591 /* ImageInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfoRequest.swift; sourceTree = "<group>"; };
-		F2F28CC12776F2040062D591 /* ImageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInfo.swift; sourceTree = "<group>"; };
+		F2F28CC12776F2040062D591 /* ImagesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesInfo.swift; sourceTree = "<group>"; };
 		F2F28CC32777FB4B0062D591 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F2F28CC42777FB4B0062D591 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		F2F28CC7277842EF0062D591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				F2F28CC7277842EF0062D591 /* SceneDelegate.swift */,
 				F24416412775912E001F4DDA /* MainViewController.swift */,
 				F2F28CBF2776F1810062D591 /* ImageInfoRequest.swift */,
-				F2F28CC12776F2040062D591 /* ImageInfo.swift */,
+				F2F28CC12776F2040062D591 /* ImagesInfo.swift */,
 				F2F28CC32777FB4B0062D591 /* TableViewCell.swift */,
 				F2F28CC42777FB4B0062D591 /* TableViewCell.xib */,
 				F24416432775912E001F4DDA /* Main.storyboard */,
@@ -277,7 +277,7 @@
 				F2F28CC52777FB4B0062D591 /* TableViewCell.swift in Sources */,
 				F24416422775912E001F4DDA /* MainViewController.swift in Sources */,
 				F2F28CC02776F1810062D591 /* ImageInfoRequest.swift in Sources */,
-				F2F28CC22776F2040062D591 /* ImageInfo.swift in Sources */,
+				F2F28CC22776F2040062D591 /* ImagesInfo.swift in Sources */,
 				F244163E2775912E001F4DDA /* AppDelegate.swift in Sources */,
 				F2F28CC8277842EF0062D591 /* SceneDelegate.swift in Sources */,
 			);
