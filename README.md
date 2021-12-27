@@ -5,5 +5,5 @@ This contains basic working app with no bonus
 - image, name, description, positive vote count display correctly
 
 ****Bug****
-- image name in some cells are overlap. not sure why. seems to randomly appear when scroll down and up. easy fix by pull to refresh but non sustainable. 
+- image name in some cells are overlap. not sure why. seems to randomly appear when scroll down and up. easy fix by pull to refresh but non sustainable. (out of my knowledge boundary but might be an easy fix if known correct keyword) 
 - some description constraints are weirdly spaced out from title. might have something to do with dynamic cell height. 
