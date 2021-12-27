@@ -10,13 +10,10 @@ import UIKit
 
 class ImageInfoRequest {
     
-    static let shared = ImageInfoRequest()
-    
     func fetchImageInfo(onCompletion: @escaping ([ImagesInfo]) -> ()) {
         
-        let urlStrimg = "https://api.500px.com/v1/photos?feature=popular&page=1"
-        let url = URL(string: urlStrimg)!
-        
+        let urlString = "https://api.500px.com/v1/photos?feature=popular&page=1"
+        let url = URL(string: urlString)!
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             
             guard let data = data else {
@@ -28,7 +25,6 @@ class ImageInfoRequest {
                 print ("JSON Decode error.")
                 return
             }
-            print(imageInfoList.photos)
             onCompletion(imageInfoList.photos)
         }
         task.resume()

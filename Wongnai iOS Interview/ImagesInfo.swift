@@ -12,7 +12,7 @@ import Foundation
     }
 
     struct ImagesInfo: Codable {
-        var image_url: [String]?
+        var image_url: [URL]?
         var name: String?
         var description: String?
         var positive_votes_count: Int?
