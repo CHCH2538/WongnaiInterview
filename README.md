@@ -1,5 +1,5 @@
-# WongnaiInterview
-This repo contains basic working app with no bonus
+# Wongnai Interview
+This contains basic working app with no bonus
 - UI According to Figma
 - pull to refresh
 - image, name, description, positive vote count display correctly
